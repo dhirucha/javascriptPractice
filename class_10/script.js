@@ -57,4 +57,18 @@
 // let Obj = new child();
 
 
+//Practice q-1
 
+let Data = 'secret info';
+class user {
+    constructor(name, email){
+        this.name = name;
+        this.email = email;
+    }
+    viewData(){
+        console.log('data =',Data);
+    }
+}
+
+let student1 = new user("Dj","dj@gmail.com");
+let student2 = new user('dk','abc@gmail.com');
